@@ -3,7 +3,7 @@ package Esercitazione1.es4_heapMax;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class MaxHeap<E extends Comparable<E>> {
+public class MaxHeap<E extends Comparable<E>> implements Cloneable {
 
     private ArrayList<E> a = new ArrayList<>();
 
